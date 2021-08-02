@@ -9,7 +9,7 @@ The model consists of two networks: generator and discriminator. The generator i
 ## build_model
 build_model.py provides functions 'build_generator_net' and 'build_discriminator_net' to create generator and discriminator models respectively.
 ### build_generator_net(B)
-Creates the generator model as depicted in the figure above where B is the number of recursive blocks.
+Creates the generator model as depicted in the figure above where B is the number of residual blocks.
 ### build_discriminator_net(n,k,s)
 Creates the discriminator model as shown in the figure above. n, k and s respectively signify the number of filters, kernel size and strides respectively.
 ##loss_calc
