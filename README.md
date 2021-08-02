@@ -28,3 +28,7 @@ Used for training the model
 Generator and discriminator models are passed using 'generator_model' and 'discriminator_model' respectively. 'VGG_MODEL' is the pretrained dowloaded VGG model used for calculating vgg_loss. 'dataset' contains batched training data of low-res and high-res images. 'epochs' (default 10) specifies the number of epochs for which training should be done on the models. This function calls train_step for each batch in each epoch.
 ### train_step(generator_model, generator_opt, discriminator_model, discriminator_opt, VGG_MODEL, true_lr, true_hr)
 Where the actual training happens. 
+## for_training.ipynb
+Use this notebook for training the model.
+## for_testing.ipynb
+Use this notebook for testing the model.
